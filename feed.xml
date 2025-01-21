@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Title</title>
+    <link>google.com</link>
+    <language>en-us</language>
+    <copyright>Copyright 2011</copyright>
+    <itunes:subtitle>Subtitle</itunes:subtitle>
+    <itunes:author>Author</itunes:author>
+    <itunes:summary>Summary</itunes:summary>
+    <description>Description</description>
+    <itunes:owner>
+      <itunes:name>Name</itunes:name>
+      <itunes:email>Email</itunes:email>
+    </itunes:owner>
+    <itunes:image href="image.jpg"/>
+    <itunes:category text="Technology">
+      <itunes:category text="Gadgets"/>
+    </itunes:category>
+    <itunes:category text="TV &amp; Film"/>
+    <item>
+      <title>Podcast Title</title>
+      <itunes:author>Author</itunes:author>
+      <itunes:subtitle>Subtitle</itunes:subtitle>
+      <itunes:summary>Summary</itunes:summary>
+      <itunes:image>image.jpg</itunes:image>
+      <enclosure url="https://github.com/denolfe/podcast-feed-test/raw/refs/heads/main/episodes/2025-01-20.mp3" length="8727310" type="audio/x-mpeg"/>
+      <guid>http://example.com/archive/aae20050615.m4a</guid>
+      <pubDate>Wed, 15 Jun 2011 19:00:00 GMT</pubDate>
+      <itunes:duration>7:04</itunes:duration>
+      <itunes:keywords>salt, pepper, shaker, exciting</itunes:keywords>
+    </item>
+    <item>
+      <title>Podcast2 Title</title>
+      <itunes:author>Author2</itunes:author>
+      <itunes:subtitle>Subtitle2</itunes:subtitle>
+      <itunes:summary>Summary2</itunes:summary>
+      <itunes:image>image2.jpg</itunes:image>
+      <enclosure url="http://example.com/podcast2.m4a" length="655555" type="audio/x-m4a"/>
+      <guid>http://example.com/archive/aae2.m4a</guid>
+      <pubDate>Wed, 15 Jul 2011 19:00:00 GMT</pubDate>
+      <itunes:duration>11:20</itunes:duration>
+      <itunes:keywords>foo, bar</itunes:keywords>
+    </item>
+  </channel>
+</rss>
